@@ -44,3 +44,10 @@ binding.
 - The Touch Bar can't show whether Superwhisper is recording, because tiny-dfr only draws
   fixed icons. Superwhisper's own recording indicator shows that.
 - If the Touch Bar stays blank right after setup, reboot once.
+
+## Credits
+
+The mic icon (`touchbar/dictate.svg`) and the icons in `preview.png` come from Google's
+[Material Symbols](https://github.com/google/material-design-icons), licensed under
+Apache-2.0. The other Touch Bar icons in the preview are the ones tiny-dfr ships.
+`preview.png` is an illustration of the Touch Bar layout, not a photo.
