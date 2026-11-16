@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.aesthytik.touchbar-dictate",
+  "name": "Touch Bar Dictation",
+  "version": "0.1.0",
+  "author": "aesthytik",
+  "license": "MIT",
+  "description": "Adds a mic button to the MacBook Touch Bar that starts and stops Superwhisper dictation.",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}

@@ -1,0 +1,44 @@
+# Installed by the io.github.aesthytik.touchbar-dictate Omarchy plugin.
+# The original file is backed up next to this one as config.toml.touchbar-dictate.bak
+# and restored by remove.sh.
+
+# Show media/brightness keys by default (hold Fn for F1-F12), like the stock driver.
+MediaLayerDefault = true
+ShowButtonOutlines = true
+EnablePixelShift = false
+FontTemplate = ":bold"
+AdaptiveBrightness = true
+ActiveBrightness = 128
+DoublePressSwitchLayers = 0
+
+PrimaryLayerKeys = [
+    { Text = "F1",  Action = "F1"  },
+    { Text = "F2",  Action = "F2"  },
+    { Text = "F3",  Action = "F3"  },
+    { Text = "F4",  Action = "F4"  },
+    { Text = "F5",  Action = "F5"  },
+    { Text = "F6",  Action = "F6"  },
+    { Text = "F7",  Action = "F7"  },
+    { Text = "F8",  Action = "F8"  },
+    { Text = "F9",  Action = "F9"  },
+    { Text = "F10", Action = "F10" },
+    { Text = "F11", Action = "F11" },
+    { Text = "F12", Action = "F12" },
+    { Icon = "dictate", Action = "F19" }
+]
+
+MediaLayerKeys = [
+    { Icon = "brightness_low",  Action = "BrightnessDown" },
+    { Icon = "brightness_high", Action = "BrightnessUp"   },
+    { Icon = "mic_off",         Action = "MicMute"        },
+    { Icon = "search",          Action = "Search"         },
+    { Icon = "backlight_low",   Action = "IllumDown"      },
+    { Icon = "backlight_high",  Action = "IllumUp"        },
+    { Icon = "fast_rewind",     Action = "PreviousSong"   },
+    { Icon = "play_pause",      Action = "PlayPause"      },
+    { Icon = "fast_forward",    Action = "NextSong"       },
+    { Icon = "volume_off",      Action = "Mute"           },
+    { Icon = "volume_down",     Action = "VolumeDown"     },
+    { Icon = "volume_up",       Action = "VolumeUp"       },
+    { Icon = "dictate",         Action = "F19"            }
+]
